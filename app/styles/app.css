@@ -1,0 +1,49 @@
+.fill-bar {
+  background: #FAFAFA;
+  padding: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #9E9E9E;
+  height: 100px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.status-text {
+  margin: auto;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-box {
+  margin-bottom: 10px;
+}
+
+.primary {
+  padding: 10px;
+  border-radius: 5px;
+  background: #42A5F5;
+  border: 1px solid #1976D2;
+  color: #E3F2FD;
+  font-size: 1.25em;
+  width: 150px;
+}
+
+.danger {
+  padding: 10px;
+  border-radius: 5px;
+  background: #F44336;
+  border: 1px solid #E53935;
+  color: #FFEBEE;
+  font-size: 1.25em;
+  width: 150px;
+}
+
+.danger:disabled {
+  background: #EF9A9A;
+}

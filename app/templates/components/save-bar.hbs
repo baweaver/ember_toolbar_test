@@ -1,0 +1,16 @@
+<div class="fill-bar">
+  <div class="pull-left status-text">
+    <strong>Last played with:</strong>
+
+    {{#if lastPlayedWith}}
+      {{moment lastPlayedWith}}
+    {{else}}
+      Forever ago?
+    {{/if}}
+  </div>
+
+  <div class="pull-right button-box">
+    <button class="primary" {{action "save"}}>Go</button>
+    <button class="danger" disabled={{cancel}}>Cancel</button>
+  </div>
+</div>
